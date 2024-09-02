@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: curl
-        run: curl -X POST '${{ secrets.DEPLOY_HOOK_URL }}'
+        run: curl -X POST '${{ https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/62ca2614-318b-4ef3-875f-9c4b2d8fc7a2 }}'
